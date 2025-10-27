@@ -1,3 +1,104 @@
+/* formataçao global da pagina  */
+* {
+    /* RESETANDO OS / PREENCHIMENTO */
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        font-family: "DM Serif text",serif;
+}
+
+header {
+    background-color: aqua;
+    /* cor de fundo */
+    padding: 2rem;
+    /* preenchimento interno = 32px */
+
+    /* propriedades de alinhamento */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    /* header fixo */
+    
+
+    position: sticky;
+    /* posicionamento fixo do header */
+
+    /* zerando a esquerda */
+    left: 0;
+
+    /* zerando o topo */
+    top: 0;
+
+    /* eixo cartesiano / profundidade */
+    z-index: 999;
+}
+
+    /* ESTILIZAÇAO DA LOGO */
+
+    .logo-jk {
+        /* largura responsiva da img */
+        width: 8rem;
+
+        /* o auto servira como uma altura automatica em relaçao a tela o navegado */
+        height: auto;
+
+    }
+
+    /* aplicando formataçao na ul */
+    .ul-list {
+        
+        /* colocando as li lado a lado */
+        display: flex;
+        /* espaçamento entre as listas  */
+        gap: 10px;
+    }
+        /* removendo a estilizaçao padrao da ancora  */
+    .ul-list li a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .section-01 {
+        background-image: ;
+        background-size: cover;
+        background-position: top;
+        padding: 13rem;
+    }
+
+    /* @media (max-width: 1000px) {section
+
+    /* background-image: url (imagem/TABLET.jpg);
+
+    padding: 10rem
+    
+    } */ 
+
+    @media (max-width: 500px) {
+        .section-01{
+            background-image: url;
+            padding: 8rem;
+        }
+    }
+
+    nav {
+        /* aqui estamos ocultando o nenu para versoes mobilie */
+        display: none;  
+        /* responsavel por ocultar o menu ou qualquer outra proriedade  */
+    }
+
+    /*  @media (max-width: 500px) {
+    header { 
+        background-color: aqua;
+    
+            } 
+        }  
+    */
+
+    /* @MEDIA vai para definir configuraçoes / estilizaçoes para tamanhos de tela em especifico */
+
+
 
 
 
