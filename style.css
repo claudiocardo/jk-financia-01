@@ -1,14 +1,14 @@
 /* formataçao global da pagina  */
 * {
     /* RESETANDO OS / PREENCHIMENTO */
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        font-family: "DM Serif text",serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "DM Serif text", serif;
 }
 
 header {
-    background-color: aqua;
+    background-color: #D8D8C0;
     /* cor de fundo */
     padding: 2rem;
     /* preenchimento interno = 32px */
@@ -19,7 +19,7 @@ header {
     justify-content: space-evenly;
 
     /* header fixo */
-    
+
 
     position: sticky;
     /* posicionamento fixo do header */
@@ -34,61 +34,66 @@ header {
     z-index: 999;
 }
 
-    /* ESTILIZAÇAO DA LOGO */
 
-    .logo-jk {
-        /* largura responsiva da img */
-        width: 8rem;
+/* ESTILIZAÇAO DA LOGO */
 
-        /* o auto servira como uma altura automatica em relaçao a tela o navegado */
-        height: auto;
+.logo-Jk {
+    
+    /* largura responsiva da img */
+    width: 8rem;
 
-    }
+    /* o auto servira como uma altura automatica em relaçao a tela o navegado */
+    height: auto;
 
+}
+
+.ul-list {
     /* aplicando formataçao na ul */
-    .ul-list {
-        
-        /* colocando as li lado a lado */
-        display: flex;
-        /* espaçamento entre as listas  */
-        gap: 10px;
-    }
-        /* removendo a estilizaçao padrao da ancora  */
-    .ul-list li a {
-        text-decoration: none;
-        color: black;
 
-    }
+    /* colocando as li lado a lado */
+    display: flex;
+    /* espaçamento entre as listas  */
+    gap: 10px;
 
-    .section-01 {
-        background-image: ;
-        background-size: cover;
-        background-position: top;
-        padding: 13rem;
-    }
+}
 
-    /* @media (max-width: 1000px) {section
+.ul-list li a {
+    /* removendo a estilizaçao padrao da ancora  */
+
+    text-decoration: none;
+    color:BLACK;
+
+}
+
+.section-01 {
+    background-image: url(imagem/unnamed.jpg) ;
+    background-size: cover;
+    background-position: top;
+    padding: 13rem;
+}
+
+/* @media (max-width: 1000px) {section
 
     /* background-image: url (imagem/TABLET.jpg);
 
     padding: 10rem
     
-    } */ 
+    } */
 
-    @media (max-width: 500px) {
-        .section-01{
-            background-image: url;
-            padding: 8rem;
-        }
+@media (max-width: 500px) {
+    .section-01 {
+        background-image: url(imagem/banner-tablet.jpg);
+        padding: 8rem;
     }
+}
 
-    nav {
-        /* aqui estamos ocultando o nenu para versoes mobilie */
-        display: none;  
-        /* responsavel por ocultar o menu ou qualquer outra proriedade  */
-    }
+nav {
+    /* aqui estamos ocultando o nenu para versoes mobilie */
+    display: none;
+    /* responsavel por ocultar o menu ou qualquer outra proriedade  */
+}
 
-    /*  @media (max-width: 500px) {
+/*  @media (max-width: 500px) {
     header { 
         background-color: aqua;
     
@@ -96,7 +101,7 @@ header {
         }  
     */
 
-    /* @MEDIA vai para definir configuraçoes / estilizaçoes para tamanhos de tela em especifico */
+/* @MEDIA vai para definir configuraçoes / estilizaçoes para tamanhos de tela em especifico */
 
 
 
