@@ -10,7 +10,7 @@
 header {
     background-color: #D8D8C0;
     /* cor de fundo */
-    padding: 2rem;
+    padding: 1rem;
     /* preenchimento interno = 32px */
 
     /* propriedades de alinhamento */
@@ -53,7 +53,7 @@ header {
     /* colocando as li lado a lado */
     display: flex;
     /* espaçamento entre as listas  */
-    gap: 10px;
+    gap: 15px;
 
 }
 
@@ -66,10 +66,23 @@ header {
 }
 
 .section-01 {
-    background-image: url(imagem/unnamed.jpg) ;
+    background-image: url(imagem/Sem\ Título-1.jpg) ;
     background-size: cover;
     background-position: top;
     padding: 13rem;
+}
+
+.section-02 {
+    
+}
+
+.caixa-icones {
+
+}
+
+.texto-caixa {
+
+    
 }
 
 /* @media (max-width: 1000px) {section
@@ -89,7 +102,7 @@ header {
 
 nav {
     /* aqui estamos ocultando o nenu para versoes mobilie */
-    display: none;
+    /* display: none; */
     /* responsavel por ocultar o menu ou qualquer outra proriedade  */
 }
 
