@@ -34,6 +34,10 @@ header {
     z-index: 999;
 }
 
+header img {
+    width:14rem ;
+}
+
 
 /* ESTILIZAÇAO DA LOGO */
 
@@ -72,17 +76,92 @@ header {
     padding: 13rem;
 }
 
+/* estamos chamando p titulo da sessao */
+.tex-content h3 {
+    font-size: 2rem;/*tamanho da fonte*/
+    font-weight: 800;/*peso da fonte*/
+    text-transform: uppercase;/*tornando o texto em caixa alta */
+    margin-bottom: 2rem;/*margem inferior do titulo*/
+}
+
 .section-02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    flex-direction: column;
     
 }
 
-.caixa-icones {
+.caixa {
+    background-color: rgb(6, 7, 7); /*cor de fundo da caixa */
+    color: rgb(247, 248, 250);/*cor da letra */
+    font-size: 1.3rem;/*tamanho da letra*/
+    width: 25%;/*largura de todas as caixas em porcentagem*/
+    height: 17rem;/*altura da caixa */
+    box-shadow: 15PX 15PX 25PX black;/*sombra da caixa*/
+    border-radius: 10PX;/*arredondamento da borda*/
+    min-width: 300px;/*largura ninima da caixa evita que fique muito pequeno */
+    transition: 0.8s;/*transiçao para o hover */
+    cursor: pointer; /*ativar cursor do mouse*/
+    padding: 1rem;/*atribuindo um preenchimentointerno*/
+
+
 
 }
 
+.pai-caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;/*habilitando a quebra de caixa*/
+    padding: 2rem;
+
+    
+}
+/* chamei a div icones para centralizar os mesmos */
+.caixa-icons i {
+    color: rgb(241, 232, 232);/*alterei a cor do icone*/
+    font-size: 2rem;/*aumentei a tamanho do icone*/
+    margin-top: 1rem;/*espaçamento superior*/
+    margin-bottom: 0.8rem;/*espaçamento inferior*/
+
+}
+
+.caixa-icons {
+    text-align: center;/*alinhamento dos icones ao centro*/
+}
+
+/* estilizaçao do paragrafo */
+.texto-caixa p {
+    font-size: 1.2rem;/*tamanho da letra */
+    margin-bottom: 0.8rem;/*espaçamento inferior*/
+    line-height: 2.5rem;/*espaçamento das letras*/
+    
+}
+
+/* estilizaçao do botao */
+.texto-caixa button {
+    width: 8rem;/*largura*/
+    background-color: blanchedalmond;/*cor de fundo*/
+    color: rgb(11, 11, 12);/*cor da letra*/
+    border: none;/*removendo a borda padrao*/
+    padding: 0.5rem;/*preenchimento interno do botao*/
+    border-radius: 10px;
+}
+
+/* chamando a div pai do paragrafo e botao para alinhamento */
 .texto-caixa {
+    text-align: center;/*alinhamento dos itens (podemos usar o flexbox tbm)*/
+}
 
-    
+.tex-content p {
+    color: rgba(60, 59, 59,0.866);
+    text-align: center;
+    font-size: 1.2rem;
 }
 
 /* @media (max-width: 1000px) {section
