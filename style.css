@@ -1,6 +1,6 @@
 /* formataçao global da pagina  */
 * {
-    /* RESETANDO OS / PREENCHIMENTO */
+    /* RESETANDO OS espaçamentos/preenchimentos */
     margin: 0;
     padding: 0;
     list-style: none;
@@ -35,14 +35,14 @@ header {
 }
 
 header img {
-    width:14rem ;
+    width: 14rem;
 }
 
 
 /* ESTILIZAÇAO DA LOGO */
 
 .logo-Jk {
-    
+
     /* largura responsiva da img */
     width: 8rem;
 
@@ -65,12 +65,12 @@ header img {
     /* removendo a estilizaçao padrao da ancora  */
 
     text-decoration: none;
-    color:BLACK;
+    color: BLACK;
 
 }
 
 .section-01 {
-    background-image: url(imagem/Sem\ Título-1.jpg) ;
+    background-image: url(imagem/Sem\ Título-1.jpg);
     background-size: cover;
     background-position: top;
     padding: 13rem;
@@ -78,10 +78,14 @@ header img {
 
 /* estamos chamando p titulo da sessao */
 .tex-content h3 {
-    font-size: 2.5rem;/*tamanho da fonte*/
-    font-weight: 800;/*peso da fonte*/
-    text-transform: uppercase;/*tornando o texto em caixa alta */
-    margin-bottom: 2rem;/*margem inferior do titulo*/
+    font-size: 2.5rem;
+    /*tamanho da fonte*/
+    font-weight: 800;
+    /*peso da fonte*/
+    text-transform: uppercase;
+    /*tornando o texto em caixa alta */
+    margin-bottom: 2rem;
+    /*margem inferior do titulo*/
 }
 
 .section-02 {
@@ -92,21 +96,32 @@ header img {
     padding: 2rem;
     flex-wrap: wrap;
     flex-direction: column;
-    
+
 }
 
 .caixa {
-    background-color: rgb(6, 7, 7); /*cor de fundo da caixa */
-    color: rgb(247, 248, 250);/*cor da letra */
-    font-size: 1.3rem;/*tamanho da letra*/
-    width: 25%;/*largura de todas as caixas em porcentagem*/
-    height: 17rem;/*altura da caixa */
-    box-shadow: 15PX 15PX 25PX black;/*sombra da caixa*/
-    border-radius: 10PX;/*arredondamento da borda*/
-    min-width: 300px;/*largura ninima da caixa evita que fique muito pequeno */
-    transition: 0.8s;/*transiçao para o hover */
-    cursor: pointer; /*ativar cursor do mouse*/
-    padding: 1rem;/*atribuindo um preenchimentointerno*/
+    background-color: rgb(6, 7, 7);
+    /*cor de fundo da caixa */
+    color: rgb(247, 248, 250);
+    /*cor da letra */
+    font-size: 1.3rem;
+    /*tamanho da letra*/
+    width: 25%;
+    /*largura de todas as caixas em porcentagem*/
+    height: 17rem;
+    /*altura da caixa */
+    box-shadow: 15PX 15PX 25PX black;
+    /*sombra da caixa*/
+    border-radius: 10PX;
+    /*arredondamento da borda*/
+    min-width: 300px;
+    /*largura ninima da caixa evita que fique muito pequeno */
+    transition: 0.8s;
+    /*transiçao para o hover */
+    cursor: pointer;
+    /*ativar cursor do mouse*/
+    padding: 1rem;
+    /*atribuindo um preenchimentointerno*/
 
 
 
@@ -117,45 +132,61 @@ header img {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    flex-wrap: wrap;/*habilitando a quebra de caixa*/
+    flex-wrap: wrap;
+    /*habilitando a quebra de caixa*/
     padding: 2rem;
 
-    
+
 }
+
 /* chamei a div icones para centralizar os mesmos */
 .caixa-icons i {
-    color: rgb(241, 232, 232);/*alterei a cor do icone*/
-    font-size: 2rem;/*aumentei a tamanho do icone*/
-    margin-top: 1rem;/*espaçamento superior*/
-    margin-bottom: 0.8rem;/*espaçamento inferior*/
+    color: rgb(241, 232, 232);
+    /*alterei a cor do icone*/
+    font-size: 2rem;
+    /*aumentei a tamanho do icone*/
+    margin-top: 1rem;
+    /*espaçamento superior*/
+    margin-bottom: 0.8rem;
+    /*espaçamento inferior*/
 
 }
 
 .caixa-icons {
-    text-align: center;/*alinhamento dos icones ao centro*/
+    text-align: center;
+    /*alinhamento dos icones ao centro*/
 }
 
 /* estilizaçao do paragrafo */
 .texto-caixa p {
-    font-size: 1.2rem;/*tamanho da letra */
-    margin-bottom: 0.8rem;/*espaçamento inferior*/
-    line-height: 2.5rem;/*espaçamento das letras*/
-    
+    font-size: 1.2rem;
+    /*tamanho da letra */
+    margin-bottom: 0.8rem;
+    /*espaçamento inferior*/
+    line-height: 2.5rem;
+    /*espaçamento das letras*/
+
 }
 
 /* estilizaçao do botao */
 .texto-caixa button {
-    width: 8rem;/*largura*/
-    background-color: blanchedalmond;/*cor de fundo*/
-    color: rgb(11, 11, 12);/*cor da letra*/
-    border: none;/*removendo a borda padrao*/
-    padding: 0.5rem;/*preenchimento interno do botao*/
+    width: 8rem;
+    /*largura*/
+    background-color: blanchedalmond;
+    /*cor de fundo*/
+    color: rgb(11, 11, 12);
+    /*cor da letra*/
+    border: none;
+    /*removendo a borda padrao*/
+    padding: 0.5rem;
+    /*preenchimento interno do botao*/
     border-radius: 10px;
 }
 
 /* chamando a div pai do paragrafo e botao para alinhamento */
 .texto-caixa {
-    text-align: center;/*alinhamento dos itens (podemos usar o flexbox tbm)*/
+    text-align: center;
+    /*alinhamento dos itens (podemos usar o flexbox tbm)*/
 }
 
 .tex-content p {
@@ -163,6 +194,9 @@ header img {
     text-align: center;
     font-size: 1.5rem;
 }
+
+
+
 
 .section-03 {
     display: flex;
@@ -174,7 +208,7 @@ header img {
     flex-direction: column;
 
 }
- 
+
 .executiva-01 h3 {
     font-size: 2.5rem;
     font-weight: 800;
@@ -182,20 +216,20 @@ header img {
     margin-bottom: 2rem;
     display: flex;
     justify-content: center;
-    
+
 }
-    
+
 
 .executiva-01 P {
     font-size: 1.5rem;
     text-align: center;
-    color:black;
+    color: black;
 
-    
+
 }
 
 .executiva img {
-    width:25rem;
+    width: 25rem;
 }
 
 .section-04 {
@@ -206,7 +240,7 @@ header img {
     padding: 2rem;
     flex-wrap: wrap;
     flex-direction: column;
-    background-color: #D8D8C0 ;
+    background-color: #D8D8C0;
 }
 
 .section-04 h3 {
@@ -232,31 +266,32 @@ header img {
 }
 
 footer {
-    background-color: #a1a19e ;
+    background-color: #a1a19e;
     padding: 1rem;
-    font-size:1.5rem ;
+    font-size: 1.5rem;
     gap: 1rem;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column;
     align-items: center;
-    justify-content:center;
+    justify-content:center; */
 
 }
 
- /* . footer p {  */
-    /* text-align: center; */
-    /* display: flex; */
-    /* justify-content: center; */
-    /* letter-spacing: 0.2rem;  */
-
-
+.footer-pai {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 2rem;
+    /* flex-wrap: wrap; */
+    padding: 2rem;
 }
+
 
 .icones-0 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
+    /* align-items: center; */
+    /* text-align: center;  */
     width: 90vw;
 }
 
@@ -268,7 +303,7 @@ footer {
     align-items: self-start;
     flex-direction: column;
     /* grid-template-columns: auto; */
-    
+
 }
 
 .icones-02 {
@@ -276,9 +311,30 @@ footer {
     color: black;
     display: flex;
     justify-content: left;
-    align-items:end;
+    align-items: end;
     flex-direction: column;
     gap: 1rem;
+}
+
+.icones-03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.menu-btn {
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+
+    /* so aparece no mobile */
+}
+
+.nav-menu {
+    display: none;
+
 }
 
 /* @media (max-width: 1000px) {section
@@ -290,10 +346,110 @@ footer {
     } */
 
 @media (max-width: 500px) {
+
+    header {
+        padding: 1.5rem;
+    }
+
     .section-01 {
         background-image: url(imagem/banner-tablet.jpg);
         padding: 8rem;
     }
+
+
+    /* centralizando tudo dentro da section-02 */
+
+    .section-02 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 4rem 1rem;
+    }
+
+    /* centraliza o texto do titulo e paragrafo */
+
+    .tex-content h3 {
+        font-size: 1.6rem;
+        text-align: center;
+        margin-bottom: 1.5rem;
+
+    }
+
+    .tex-content p {
+        font-size: 1rem;
+        text-align: center;
+        padding: 0 1rem;
+    }
+
+    /* faz as caixas ficarem uma enbaixo da outra centralizadas */
+
+    .pai-caixas {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        padding: 1rem;
+
+    }
+
+    .texto-caixa p {
+        font-size: 1rem;
+    }
+
+    .texto-caixa button {
+        width: 100%;
+        max-width: 10rem;
+        margin-top: 1rem;
+    }
+
+
+    
+
+
+    .menu-desktop {
+        /* aqui estamos ocultando o menu para versoes mobilie */
+        display: flex;
+        /* responsavel por ocultar o menu ou qualquer outra propriedade */
+    }
+
+
+    .menu-btn {
+        display: flex;
+    }
+
+
+    .nav-menu {
+        position: absolute;
+        top: -30rem;
+        /* começa escondedido acima  */
+        left: 0;
+        width: 100%;
+        height: 30vh;
+        background-color: #D8D8C0;
+
+        transition: top 0.3s ease-in-out;
+        /* transiçao suave */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .show {
+        top: 90px;
+        /* desce suavemente quando e ativado */
+    }
+
+    .ul-list2 {
+        flex-direction: column;
+        gap: 10px;
+        padding: 1rem 0;
+    }
+
+
+
+
 }
 
 nav {
