@@ -425,7 +425,7 @@ footer {
 
     .menu-desktop {
         /* aqui estamos ocultando o menu para versoes mobilie */
-        display: flex;
+        display: none;
         /* responsavel por ocultar o menu ou qualquer outra propriedade */
     }
 
