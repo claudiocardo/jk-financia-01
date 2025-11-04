@@ -306,12 +306,12 @@ footer {
 }
 
 .icones-02 {
-    font-size: 2rem;
+    font-size: 1rem;
     color: black;
     display: flex;
-    justify-content: left;
-    align-items: end;
-    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
     gap: 1rem;
 }
 
@@ -319,6 +319,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 
