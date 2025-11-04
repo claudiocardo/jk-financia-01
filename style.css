@@ -78,7 +78,7 @@ header img {
 
 /* estamos chamando p titulo da sessao */
 .tex-content h3 {
-    font-size: 2rem;/*tamanho da fonte*/
+    font-size: 2.5rem;/*tamanho da fonte*/
     font-weight: 800;/*peso da fonte*/
     text-transform: uppercase;/*tornando o texto em caixa alta */
     margin-bottom: 2rem;/*margem inferior do titulo*/
@@ -159,9 +159,9 @@ header img {
 }
 
 .tex-content p {
-    color: rgba(60, 59, 59,0.866);
+    color: black;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .section-03 {
@@ -174,25 +174,86 @@ header img {
     flex-direction: ;
 
 }
-
+ 
 .executiva-01 h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
     display: flex;
-    align-items: center;
     justify-content: center;
-    font-size: 2rem;/*tamanho da fonte*/
-    font-weight: 800;/*peso da fonte*/
-    text-transform: uppercase;/*tornando o texto em caixa alta */
-    margin-bottom: 2rem;/*margem inferior do titulo*/
+    
 }
     
 
+.executiva-01 P {
+    font-size: 1.5rem;
+    text-align: center;
+    color:black;
 
+    
+}
 
-.executiva {
+.executiva img {
+    width:25rem;
+}
+
+.section-04 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 25%;
+    gap: 2.5rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #D8D8C0 ;
+}
+
+.section-04 h3 {
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+.section-04 p {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.botao-01 {
+    width: 14rem;
+    height: 1.5rem;
+}
+
+.botao-02 {
+    width: 5rem;
+    height: 1.5rem;
+}
+
+footer {
+    background-color: #a1a19e ;
+    padding: 1rem;
+    font-size:1.5rem ;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+}
+
+.footer p {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.icones-0 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90vw;
 }
 
 /* @media (max-width: 1000px) {section
