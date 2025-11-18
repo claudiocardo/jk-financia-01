@@ -51,6 +51,12 @@ header img {
 
 }
 
+
+
+
+
+
+
 .ul-list {
     /* aplicando formataçao na ul */
 
@@ -335,18 +341,25 @@ footer {
 
 }
 
+/*MENU MOBILE*/
 
+/*Icone do menu (hamburguer)*/
 
 .menu-btn {
     font-size: 2rem;
     cursor: pointer;
-    display: none;
+    display: none;/*torna o item invesivel so aparece no mobile*/
 
-    /* so aparece no mobile */
 }
 
+
+
+
+
+
+/*navegaçao do menu hanburguer*/
 .nav-menu {
-    display: none;
+    display: none;/*so ira aparecer n mobile*/
 
 }
 
@@ -431,7 +444,8 @@ footer {
 
 
     .menu-btn {
-        display: flex;
+        display: flex;/*tornando o menuHamburger vissivel*/
+        margin-right: -3rem;/* posicionamento do menu*/
     }
 
 
